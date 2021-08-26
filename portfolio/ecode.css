@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(236, 240, 241,0.4);
+}
+
+.title{
+    font-family:'Nunito', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding: 1.5rem;
+    padding-left: 8rem;
+    color: #2d3436;
+}
+h1, h2, h3,h4, p{
+    color: #2d3436;
+}
+h4{
+    padding-left: 8rem;
+    padding-top: 2rem;
+    cursor: pointer;
+    font-family:'Nunito', sans-serif;
+}
+h4 a{
+    color: #2d3436;
+    text-decoration: none;
+}
+h4:hover a{
+    color: rgba(45, 52, 54,0.7);
+}
+.content{
+    font-family:'Nunito', sans-serif;
+    padding: 1rem 2rem 0rem;
+    padding-left: 8rem;
+}
+.content p{
+    font-size: 1.1rem;
+
+}
+.content a{
+    color: #E9C46A;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.content .visit_website{
+    font-size: 1.1rem;
+    color: #16a085;
+    text-decoration: underline;
+}
+
+.content .visit_website:hover{
+    color: rgba(45, 52, 54,0.7);
+}
+h3{
+    font-size: 2rem;
+}
+
+img{
+    position: relative;
+    left: 5%;
+    cursor: pointer;
+}
+
+@media (max-width:900px){
+    .title, h4, .content{
+        padding-left: 5rem;
+    }
+}
+
+@media (max-width:650px){
+    .title, h4, .content{
+        padding-left: 3rem;
+    }
+}
+
+@media (max-width:400px){
+    .title, h4, .content{
+        padding-left: 2rem;
+    }
+}
