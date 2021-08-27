@@ -10,6 +10,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&family=Poppins:wght@300;400&display=swap');
+
 
 
 
@@ -578,11 +580,13 @@ html{
     min-height: 90vh;
     background-color: rgba(236, 240, 241,0.5);
 }
-.services h1{
-
+.serviceMainHeading h1{
+	font-family: 'Montserrat', sans-serif;
 }
+
 .services p{
-    font-family:'Sawarabi Gothic', sans-serif;
+/*     font-family:'Sawarabi Gothic', sans-serif; */
+    font-family: 'Poppins', sans-serif;
     color: #636e72;
     text-align: center;
 }
