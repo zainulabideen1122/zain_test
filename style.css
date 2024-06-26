@@ -189,7 +189,7 @@ html{
 
 .Home{
     min-height: 100vh;
-    background-color: rgba(23, 33, 33,0.8);
+    background-color: black;
     position: relative;
 }
 
