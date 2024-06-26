@@ -178,12 +178,12 @@ html{
 
 
 
-.HomeImage{
+.HomeImage{/**
     background-image: url(public/home_image.jpg);
     background-size: cover;
     background-position: bottom;
     overflow: hidden;
-    position: relative;
+    position: relative;**/
 
 }
 
