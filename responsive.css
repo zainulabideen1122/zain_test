@@ -28,7 +28,10 @@
 }
 
 @media(max-width:900px){
-
+    .custom-shape-divider-bottom-1719429376
+    {
+        display: none;
+    }
     .loader{
         position: relative;
         top:-10vh;
