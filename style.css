@@ -480,14 +480,14 @@ html{
     grid-template-columns: 1.5fr 2fr;
     min-height: 10vh;
     margin: 5vh 0;
-    margin-bottom: 10rem;
+    margin-bottom: 5rem;
 }
 .aboutImage{
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: 'Noto Sans', sans-serif;
-    color: #2d3436c8;
+    color: rgba(0, 0, 0, 0.63);
     font-size: 150px;
     font-weight: bolder;
     font-family: 'Montserrat', sans-serif;
@@ -572,7 +572,7 @@ html{
 }
 
 .aboutBtn{
-    margin-top: 4vh;
+    margin-top: 3vh;
     display: flex;
     flex-direction: row;
 }
@@ -591,7 +591,7 @@ html{
     transition: 0.5s ease;
 }
 .hireMe:hover, .myResume:hover{
-    box-shadow: 5px 5px 0 rgba(45, 52, 54,0.7);
+    box-shadow: 5px 5px 0 rgba(0, 0, 0, 0.63);
     transition: 0.5s ease;
 }
 .hireMe a{
