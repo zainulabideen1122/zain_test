@@ -318,10 +318,11 @@ html{
 
 
 /*------------------------------------------------ Home Background Circle Animation ------*/
+
 .bg_Anim{
     width: 30px;
     height: 30px;
-    background-color: rgba(38, 70, 83,0.5);
+    background-color: white;
     border-radius: 50%;
     animation: animation 3s infinite;
     box-shadow: 0px 0px 3px rgb(38, 70, 83);
@@ -574,12 +575,13 @@ html{
     margin-top: 4vh;
     display: flex;
     flex-direction: row;
+    border: 1px solid red;
 }
 .myResume{
     transition: 0.5s ease;
 }
 .myResume a, .hireMe a{
-    color: #2d3436;
+    color: rgba(0, 0, 0, 0.712);
     text-decoration: none;
     font-family: 'Jaldi', sans-serif;
     font-size: 1.2rem;
@@ -596,6 +598,39 @@ html{
 .hireMe a{
     color: white;
 }
+
+.technologies
+{
+    margin-top: 2rem;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #636e72;
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 10px;
+    column-gap: 10px;
+    
+}
+
+.technologies span
+{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.8rem 1rem;
+    flex-grow: 1;
+    background-color: rgba(0, 0, 0, 0.63);
+    color: white;
+    cursor: pointer;
+}
+
+.technologies{transform: translateY(5vh);opacity: 0;}
+.technologies_appear{animation:technologies 0.5s 1s ease forwards;}
+
+
 /* --------------------------------SERVICES ----------------------------*/
 
 
@@ -622,12 +657,13 @@ html{
     grid-gap:2rem ;
     font-family: 'Mukta', sans-serif;
     transition: 0.5s ease;
-    margin: 5vh 10% 5vh;
+    margin: 5vh 10% 0vh;
+    padding-bottom: 10vh;
 }
 
 
 .card{
-    height: 25vh;
+    height:30vh;
     background-color: white;
     overflow: hidden;
     display: flex;flex-direction: column;
@@ -690,6 +726,8 @@ html{
     color: #E9C46A;
 }
 
+
+
 /* ---------------------------------------------MainHeadingStyling-------------------------*/
 
 
@@ -710,14 +748,15 @@ html{
 
 /* -------------------------------------------------------SKILLS SECTION------------*/
 .skills{
-    min-height: 70vh;
-    background-image: url(public/skills_background.jpg);
+    min-height: fit-content;
+    /* background-image: url(public/skills_background.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
+    background-color: black;
 }
 .skills_background{
-    height: 70vh;
+    height: 100vh;
     background-color: rgba(45, 52, 54,0.9);
     position: relative;
 }
@@ -786,20 +825,21 @@ html{
 
 /*--------------------------------------------- PORTFOLIO -------------------------*/
 
+
+
 .Portfolio{
     min-height: 80vh;
 }
 
 .portfolioMainHeading{
-    font-family: 'Sawarabi Gothic', sans-serif;
-    padding: 5rem 0 0rem;
-    text-transform:uppercase;
-    font-size: 1.6rem;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
+    font-size: 5.5rem;
+    color:transparent;
+    -webkit-text-stroke: 1px #2d3436;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 4rem;
+    letter-spacing: 10px;
+    font-family: sans-serif;
 }
 
 .row{

@@ -28,6 +28,10 @@
 }
 
 @media(max-width:900px){
+    .technologies
+    {
+        margin-left: 5%;
+    }
     .custom-shape-divider-bottom-1719429376
     {
         display: none;

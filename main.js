@@ -137,15 +137,15 @@ menuBtn.addEventListener('click',() => {
 		const aboutImg = document.querySelector('.aboutImg');
 		const aboutText1 = document.querySelector('.aboutText1');
 		const aboutText2 = document.querySelector('.aboutText2');
-		const aboutFirstList = document.querySelector('.aboutFirstList');
-		const aboutSecondList = document.querySelector('.aboutSecondList');
+		// const aboutFirstList = document.querySelector('.aboutFirstList');
+		// const aboutSecondList = document.querySelector('.aboutSecondList');
 		const card1 = document.querySelector('.card1');
 		const card2 = document.querySelector('.card2');
 		const card3 = document.querySelector('.card3');
 		const card4 = document.querySelector('.card4');
 		const card5 = document.querySelector('.card5');
 		const card6 = document.querySelector('.card6');
-
+		const aboutTechnology = this.document.querySelector('.technologies')
 		const Block = document.querySelector('.Block');
 		const Email = document.querySelector('.Email');
 		const Phone = document.querySelector('.Phone');
@@ -164,14 +164,17 @@ menuBtn.addEventListener('click',() => {
 		if(aboutText2.getBoundingClientRect().top < onePointOne){
 			aboutText2.classList.add('aboutText2_appear');
 		}
-		if(aboutFirstList.getBoundingClientRect().top < onePointOne){
-			aboutFirstList.classList.add('aboutList_appear');
-		}
-		if(aboutSecondList.getBoundingClientRect().top < onePointOne){
-			aboutSecondList.classList.add('aboutList_appear');
-		}
-		if(aboutSecondList.getBoundingClientRect().top < onePointThree){
-			aboutSecondList.classList.add('aboutList_appear');
+		// if(aboutFirstList.getBoundingClientRect().top < onePointOne){
+		// 	aboutFirstList.classList.add('aboutList_appear');
+		// }
+		// if(aboutSecondList.getBoundingClientRect().top < onePointOne){
+		// 	aboutSecondList.classList.add('aboutList_appear');
+		// }
+		// if(aboutSecondList.getBoundingClientRect().top < onePointThree){
+		// 	aboutSecondList.classList.add('aboutList_appear');
+		// }
+		if(aboutTechnology.getBoundingClientRect().top < onePointThree){
+			aboutTechnology.classList.add('card1_appear');
 		}
 		if(card1.getBoundingClientRect().top < onePointThree){
 			card1.classList.add('card1_appear');
