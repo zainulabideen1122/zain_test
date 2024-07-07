@@ -575,7 +575,6 @@ html{
     margin-top: 4vh;
     display: flex;
     flex-direction: row;
-    border: 1px solid red;
 }
 .myResume{
     transition: 0.5s ease;
