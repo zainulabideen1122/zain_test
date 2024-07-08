@@ -824,7 +824,16 @@ html{
 
 /*--------------------------------------------- PORTFOLIO -------------------------*/
 
-
+.viewMoreLink
+{
+    text-align: center;
+    padding-top: 2rem;
+    font-family: sans-serif;
+    
+}
+.viewMoreLink > a{
+    color: rgba(0, 0, 0, 0.438);
+}
 
 .Portfolio{
     min-height: 80vh;
